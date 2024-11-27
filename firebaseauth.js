@@ -37,7 +37,7 @@
     const auth=getAuth();
     const db=getFirestore();
 
-    if(gender=="Female"){
+    if(gender=="Female" || userType=="faculty" || userType=="admin"){
     createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential)=>{
         const user=userCredential.user;
