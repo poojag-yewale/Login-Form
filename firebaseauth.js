@@ -32,6 +32,7 @@
     const firstName=document.getElementById('fName').value;
     const lastName=document.getElementById('lName').value;
     const gender=document.getElementById('gender').value;
+    const userType=document.getElementById('userType').value;
     console.log("Gender Selected= "+gender);
 
     const auth=getAuth();
