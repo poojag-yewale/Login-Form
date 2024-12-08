@@ -34,6 +34,7 @@
     const gender=document.getElementById('gender').value;
     const userType=document.getElementById('userType').value;
     console.log("Gender Selected= "+gender);
+    console.log("UserType Selected= "+userType);
 
     const auth=getAuth();
     const db=getFirestore();
