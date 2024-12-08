@@ -60,7 +60,7 @@ signUpFormElement.addEventListener("submit", function (event) {
         lastName: lastName,
         email: email,
         gender: gender,
-        userType: userType,
+        userType: userType
       };
 
       // Save data in Firebase Realtime Database or Firestore
