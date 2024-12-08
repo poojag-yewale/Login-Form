@@ -41,7 +41,7 @@ signUpFormElement.addEventListener("submit", function (event) {
   const firstName = document.getElementById("firstName").value.trim();
   const lastName = document.getElementById("lastName").value.trim();
   const gender = document.getElementById("gender").value;
-  const type = document.getElementById("type").value;
+  const userType = document.getElementById("userType").value;
 
   // Prevent form submission if gender is Male
   if (gender == "male") {
@@ -60,7 +60,7 @@ signUpFormElement.addEventListener("submit", function (event) {
         lastName: lastName,
         email: email,
         gender: gender,
-        type: type,
+        userType: userType,
       };
 
       // Save data in Firebase Realtime Database or Firestore
