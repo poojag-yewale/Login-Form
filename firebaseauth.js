@@ -46,7 +46,8 @@
             email: email,
             firstName: firstName,
             lastName:lastName,
-            gender:gender
+            gender:gender,
+            type: type
         };
         showMessage('Account Created Successfully', 'signUpMessage');
         const docRef=doc(db, "users", user.uid);
